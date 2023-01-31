@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "jest"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
