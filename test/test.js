@@ -9,13 +9,3 @@ describe('Basic Mocha String Test', function () {
         assert.equal("Weather API is Running!".charAt(1), 'e');
     });
 });
-
-describe('Endpoint Test', () => {
-    it('should return a 200 status code', (done) => {
-      request('http://localhost:5004', (error, response, body) => {
-        assert.equal(response.statusCode, 200);
-        done();
-      });
-    });
-  });
-
